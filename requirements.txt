@@ -1,0 +1,7 @@
+﻿web3
+pandas
+numpy
+fastapi
+uvicorn
+requests
+scikit-learn
