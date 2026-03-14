@@ -36,9 +36,9 @@ Scanners → Intelligence → Strategies → Execution → Alerts
 
 - clawbreaker/main.py – Launches the dashboard and orchestrates modules
 - core/engine.py – Core engine that runs scans and intelligence
-- scanners/launch_detector.py – Simulates detection of new tokens
-- intelligence/rug_classifier.py – Assigns fake rug risk scores
-- alerts/telegram_bot.py – Prints alerts when a high-risk token is detected
+- scanners/token_scanner.py – Simulates detection of new tokens
+- intelligence/risk_analyzer.py – Assigns fake rug risk scores
+- alerts/alert_system.py – Prints alerts when a high-risk token is detected
 - utils/logger.py – Handles logging across modules
 - strategies/ – Placeholder for trading strategies
 - execution/ – Placeholder for executing trades

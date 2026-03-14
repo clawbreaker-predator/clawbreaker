@@ -1,7 +1,7 @@
 ﻿import time
-from clawbreaker.scanners.launch_detector import detect_new_tokens
-from clawbreaker.intelligence.rug_classifier import score_rug_risk
-from clawbreaker.alerts.telegram_bot import send_alert
+from clawbreaker.scanners.token_scanner import detect_new_tokens
+from clawbreaker.intelligence.risk_analyzer import score_rug_risk
+from clawbreaker.alerts.alert_system import send_alert
 
 def start_engine():
     iteration = 1
